@@ -1,7 +1,15 @@
 import steputils.p21 as p21
-from OCC.Core import STEPControl_Reader, TopExp_Explorer, TopAbs_SOLID, TopAbs_FACE, TopAbs_EDGE
-from OCC.Core import BRep_Tool, GeomLProp_SLProps, BRepGProp_Face, GProp_GProps
-from OCC.Core import BRepBndLib_Add, Bnd_Box
+
+from OCC.Core.STEPControl import STEPControl_Reader
+from OCC.Core.TopExp import TopExp_Explorer
+from OCC.Core.TopAbs import TopAbs_SOLID, TopAbs_FACE, TopAbs_EDGE
+from OCC.Core.BRep import BRep_Tool
+from OCC.Core.GeomLProp import GeomLProp_SLProps
+from OCC.Core.BRepGProp import BRepGProp_Face, BRepGProp_VolumeProperties, BRepGProp_SurfaceProperties
+from OCC.Core.BRepBndLib import brepbndlib_Add  # <-- this is the correct function import
+from OCC.Core.Bnd import Bnd_Box
+from OCC.Core.IFSelect import IFSelect_RetDone
+
 from OCC.Extend.TopologyUtils import TopologyExplorer
 import math
 
