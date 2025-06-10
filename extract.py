@@ -5,7 +5,9 @@ from OCC.Core.TopExp import TopExp_Explorer
 from OCC.Core.TopAbs import TopAbs_SOLID, TopAbs_FACE, TopAbs_EDGE
 from OCC.Core.BRep import BRep_Tool
 from OCC.Core.GeomLProp import GeomLProp_SLProps
-from OCC.Core.BRepGProp import BRepGProp_Face, BRepGProp_VolumeProperties, BRepGProp_SurfaceProperties
+from OCC.Core.BRepGProp import brepgprop_VolumeProperties, brepgprop_SurfaceProperties
+from OCC.Core.GProp import GProp_GProps
+from OCC.Core.GProp import GProp_GProps
 from OCC.Core.BRepBndLib import brepbndlib_Add  # <-- this is the correct function import
 from OCC.Core.Bnd import Bnd_Box
 from OCC.Core.IFSelect import IFSelect_RetDone
@@ -81,7 +83,7 @@ def extract_step_dimensions(step_file_path):
         
         # Calculate precise bounding box
         bbox = Bnd_Box()
-        BRepBndLib_Add(shape, bbox)
+        brepbndlib_Add(shape, bbox)
         
         if not bbox.IsVoid():
             xmin, ymin, zmin, xmax, ymax, zmax = bbox.Get()
