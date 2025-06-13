@@ -1,14 +1,14 @@
-# STEP File Feature Extractor
+# CAD File Feature Extractor
 
-A Python tool that extracts geometric features and dimensions from STEP (ISO 10303) CAD files using pythonOCC and steputils.
+A Python tool that extracts geometric features and dimensions from CAD files (STEP, IGES, STL) using pythonOCC.
 
 ## Installation
 
 1. Create and activate a conda environment:
 
 ```bash
-conda create -n step_env python=3.8
-conda activate step_env
+conda create -n pyocct python=3.8
+conda activate pyocct
 ```
 
 2. Install pythonOCC-core using conda:
@@ -17,99 +17,90 @@ conda activate step_env
 conda install -c conda-forge pythonocc-core
 ```
 
-3. Install steputils using pip:
+## Supported File Formats
 
-```bash
-pip install steputils
-```
+- STEP (.step, .stp)
+- IGES (.iges, .igs)
+- STL (.stl)
 
 ## Usage
 
-Run the script with your STEP file:
+Run the script with your CAD file:
 
 ```bash
-python extract.py path/to/your/file.step
+python extract.py
 ```
 
 ## Features
 
-The tool analyzes STEP files and extracts:
+The tool analyzes CAD files and extracts:
 
-- Basic properties:
+- Basic Dimensions:
 
+  - Length
+  - Breadth
+  - Height
   - Volume
   - Surface area
+
+- Geometric Features:
+  - Cylindrical features (holes, bosses)
+    - Diameter
+    - Location coordinates (x, y, z)
   - Bounding box dimensions
 
-- Geometric features:
+## Output Files
 
-  - Cylindrical surfaces (holes, bosses)
-    - Diameter
-    - Location
-    - Orientation
-  - Planar surfaces
-    - Normal direction
-    - Location
+The tool generates two output files:
 
-- STEP entities:
-  - Patterns
-  - Holes
-  - Extrusions
+1. `{filename}_dimensions.json`:
 
-## Functions
+   - Contains basic dimensional data in JSON format
+   - Includes length, breadth, and height
 
-### `analyze_shape(shape)`
+2. `{filename}_analysis.txt`:
+   - Detailed analysis report including:
+     - Full dimensional ranges (X, Y, Z)
+     - Volume and surface area
+     - Complete list of cylindrical features with locations
 
-- Analyzes basic properties of a shape including volume, surface area and bounding box
-- Returns a dictionary with measurements
+## Example Output
 
-### `analyze_surface(face)`
+```markdown
+=== STEP File Analysis ===
 
-- Analyzes individual faces to detect and measure features
-- Identifies cylinders, planes and their properties
+Dimensions:
+X: -6.000 to 6.000 (range: 12.000)
+Y: -0.000 to 2.300 (range: 2.300)
+Z: -6.000 to 6.000 (range: 12.000)
 
-### `extract_step_features(step_file_path)`
+Volume: 112.467 cubic units
+Surface Area: 808.267 square units
 
-- Main function that combines pythonOCC and steputils analysis
-- Returns complete feature analysis dictionary
+Cylindrical Features:
 
-### `print_analysis(features)`
-
-- Prints formatted analysis results including:
-  - Overall dimensions
-  - Feature counts and measurements
-  - Entity statistics
+1. Diameter: 1.000
+   Location: (-3.750, -0.001, -4.050)
+   ...
+```
 
 ## Requirements
 
 - Python 3.8+
 - pythonocc-core
-- steputils
-- Logging module (standard library)
+- Standard Python libraries:
+  - json
+  - logging
 
-## Results
+## Error Handling
 
-The tool outputs:
+The tool includes robust error handling for:
 
-```
-=== STEP File Analysis ===
+- Invalid file formats
+- Missing files
+- Corrupted CAD data
+- Empty or invalid shapes
 
-Dimensions:
-X: min to max (range)
-Y: min to max (range)
-Z: min to max (range)
-Volume: xxx cubic units
-Surface Area: xxx square units
+## License
 
-Cylindrical Features:
-1. Diameter: xxx
-   Location: (x, y, z)
-...
-
-STEP Entities:
-Patterns: xxx
-Holes: xxx
-Extrusions: xxx
-```
-
-Results are also saved to `dimensions.json` for further processing.
+[Your License Information]
