@@ -1,2 +1,2 @@
-pythonocc-core==7.7.0
-steputils==0.0.7
+pythonocc-core>=7.7.0
+steputils>=0.0.7
