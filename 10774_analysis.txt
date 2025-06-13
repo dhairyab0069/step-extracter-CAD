@@ -1,0 +1,11 @@
+=== 10774.igs Analysis ===
+
+Dimensions:
+X: -7.739 to 7.739 (range: 15.479)
+Y: -7.112 to 7.112 (range: 14.224)
+Z: -0.0 to 6.867 (range: 6.867)
+
+Volume: 403.056 cubic units
+Surface Area: 752.701 square units
+
+Cylindrical Features:

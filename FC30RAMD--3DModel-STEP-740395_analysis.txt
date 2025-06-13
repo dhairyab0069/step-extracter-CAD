@@ -1,0 +1,555 @@
+=== FC30RAMD--3DModel-STEP-740395.STEP Analysis ===
+
+Dimensions:
+X: -6.0 to 6.0 (range: 12.0)
+Y: -0.0 to 2.3 (range: 2.3)
+Z: -6.0 to 6.0 (range: 12.0)
+
+Volume: 112.467 cubic units
+Surface Area: 808.267 square units
+
+Cylindrical Features:
+  1. Diameter: 1.0
+     Location: (-3.75, 2.3, -4.05)
+  2. Diameter: 1.0
+     Location: (-3.75, 2.15, -4.05)
+  3. Diameter: 1.0
+     Location: (-3.75, 2.15, -4.05)
+  4. Diameter: 1.0
+     Location: (-3.75, 2.15, -4.05)
+  5. Diameter: 1.0
+     Location: (-3.75, 2.3, -4.05)
+  6. Diameter: 1.0
+     Location: (-3.75, 2.3, -4.05)
+  7. Diameter: 1.0
+     Location: (-3.75, 2.3, -4.05)
+  8. Diameter: 1.0
+     Location: (-3.75, 2.15, -4.05)
+  9. Diameter: 0.65
+     Location: (6.0, 0.6, -1.0)
+  10. Diameter: 0.65
+     Location: (6.0, 0.6, -2.0)
+  11. Diameter: 0.65
+     Location: (6.0, 0.6, -3.0)
+  12. Diameter: 0.65
+     Location: (6.0, 0.6, -4.0)
+  13. Diameter: 0.65
+     Location: (6.0, 0.6, -5.0)
+  14. Diameter: 0.65
+     Location: (-6.0, 0.6, -5.0)
+  15. Diameter: 0.65
+     Location: (-6.0, 0.6, -4.0)
+  16. Diameter: 0.65
+     Location: (-6.0, 0.6, -3.0)
+  17. Diameter: 0.65
+     Location: (-6.0, 0.6, -2.0)
+  18. Diameter: 0.65
+     Location: (-6.0, 0.6, -1.0)
+  19. Diameter: 0.65
+     Location: (-6.0, 0.6, 0.0)
+  20. Diameter: 0.65
+     Location: (-6.0, 0.6, 1.0)
+  21. Diameter: 0.65
+     Location: (-6.0, 0.6, 2.0)
+  22. Diameter: 0.65
+     Location: (-6.0, 0.6, 3.0)
+  23. Diameter: 0.65
+     Location: (-6.0, 0.6, 4.0)
+  24. Diameter: 0.65
+     Location: (-6.0, 0.6, 5.0)
+  25. Diameter: 0.65
+     Location: (6.0, 0.6, 5.0)
+  26. Diameter: 0.65
+     Location: (6.0, 0.6, 4.0)
+  27. Diameter: 0.65
+     Location: (6.0, 0.6, 3.0)
+  28. Diameter: 0.65
+     Location: (6.0, 0.6, 2.0)
+  29. Diameter: 0.65
+     Location: (6.0, 0.6, 1.0)
+  30. Diameter: 0.65
+     Location: (6.0, 0.6, 0.0)
+  31. Diameter: 0.65
+     Location: (6.0, 0.3, -5.0)
+  32. Diameter: 0.65
+     Location: (6.0, 0.3, 1.0)
+  33. Diameter: 0.65
+     Location: (6.0, 0.3, 2.0)
+  34. Diameter: 0.65
+     Location: (6.0, 0.3, 3.0)
+  35. Diameter: 0.65
+     Location: (6.0, 0.3, 4.0)
+  36. Diameter: 0.65
+     Location: (-6.0, 0.3, 5.0)
+  37. Diameter: 0.65
+     Location: (-6.0, 0.3, 4.0)
+  38. Diameter: 0.65
+     Location: (-6.0, 0.3, 3.0)
+  39. Diameter: 0.65
+     Location: (-6.0, 0.3, 2.0)
+  40. Diameter: 0.65
+     Location: (-6.0, 0.3, -3.0)
+  41. Diameter: 0.65
+     Location: (-6.0, 0.3, -4.0)
+  42. Diameter: 0.65
+     Location: (6.0, 0.3, 5.0)
+  43. Diameter: 0.65
+     Location: (-6.0, 0.3, -5.0)
+  44. Diameter: 0.65
+     Location: (-6.0, 0.3, -2.0)
+  45. Diameter: 0.65
+     Location: (-6.0, 0.3, -1.0)
+  46. Diameter: 0.65
+     Location: (-6.0, 0.3, 0.0)
+  47. Diameter: 0.65
+     Location: (-6.0, 0.3, 1.0)
+  48. Diameter: 0.65
+     Location: (6.0, 0.3, 0.0)
+  49. Diameter: 0.65
+     Location: (6.0, 0.3, -1.0)
+  50. Diameter: 0.65
+     Location: (6.0, 0.3, -2.0)
+  51. Diameter: 0.65
+     Location: (6.0, 0.3, -3.0)
+  52. Diameter: 0.65
+     Location: (6.0, 0.3, -4.0)
+  53. Diameter: 0.65
+     Location: (6.0, 0.3, -4.0)
+  54. Diameter: 0.65
+     Location: (6.0, 0.6, -4.0)
+  55. Diameter: 0.65
+     Location: (6.0, 0.3, -3.0)
+  56. Diameter: 0.65
+     Location: (6.0, 0.6, -3.0)
+  57. Diameter: 0.65
+     Location: (6.0, 0.3, -2.0)
+  58. Diameter: 0.65
+     Location: (6.0, 0.6, -2.0)
+  59. Diameter: 0.65
+     Location: (6.0, 0.3, -1.0)
+  60. Diameter: 0.65
+     Location: (6.0, 0.6, -1.0)
+  61. Diameter: 0.65
+     Location: (6.0, 0.3, 0.0)
+  62. Diameter: 0.65
+     Location: (6.0, 0.6, 0.0)
+  63. Diameter: 0.65
+     Location: (-6.0, 0.3, 1.0)
+  64. Diameter: 0.65
+     Location: (-6.0, 0.6, 1.0)
+  65. Diameter: 0.65
+     Location: (-6.0, 0.3, 0.0)
+  66. Diameter: 0.65
+     Location: (-6.0, 0.6, 0.0)
+  67. Diameter: 0.65
+     Location: (-6.0, 0.3, -1.0)
+  68. Diameter: 0.65
+     Location: (-6.0, 0.6, -1.0)
+  69. Diameter: 0.65
+     Location: (-6.0, 0.3, -2.0)
+  70. Diameter: 0.65
+     Location: (-6.0, 0.6, -2.0)
+  71. Diameter: 0.65
+     Location: (-6.0, 0.3, -5.0)
+  72. Diameter: 0.65
+     Location: (-6.0, 0.6, -5.0)
+  73. Diameter: 0.65
+     Location: (6.0, 0.3, 5.0)
+  74. Diameter: 0.65
+     Location: (6.0, 0.6, 5.0)
+  75. Diameter: 0.65
+     Location: (-6.0, 0.3, -4.0)
+  76. Diameter: 0.65
+     Location: (-6.0, 0.6, -4.0)
+  77. Diameter: 0.65
+     Location: (-6.0, 0.3, -3.0)
+  78. Diameter: 0.65
+     Location: (-6.0, 0.6, -3.0)
+  79. Diameter: 0.65
+     Location: (-6.0, 0.3, 2.0)
+  80. Diameter: 0.65
+     Location: (-6.0, 0.6, 2.0)
+  81. Diameter: 0.65
+     Location: (-6.0, 0.3, 3.0)
+  82. Diameter: 0.65
+     Location: (-6.0, 0.6, 3.0)
+  83. Diameter: 0.65
+     Location: (-6.0, 0.3, 4.0)
+  84. Diameter: 0.65
+     Location: (-6.0, 0.6, 4.0)
+  85. Diameter: 0.65
+     Location: (-6.0, 0.3, 5.0)
+  86. Diameter: 0.65
+     Location: (-6.0, 0.6, 5.0)
+  87. Diameter: 0.65
+     Location: (6.0, 0.3, 4.0)
+  88. Diameter: 0.65
+     Location: (6.0, 0.6, 4.0)
+  89. Diameter: 0.65
+     Location: (6.0, 0.3, 3.0)
+  90. Diameter: 0.65
+     Location: (6.0, 0.6, 3.0)
+  91. Diameter: 0.65
+     Location: (6.0, 0.3, 2.0)
+  92. Diameter: 0.65
+     Location: (6.0, 0.6, 2.0)
+  93. Diameter: 0.65
+     Location: (6.0, 0.3, 1.0)
+  94. Diameter: 0.65
+     Location: (6.0, 0.6, 1.0)
+  95. Diameter: 0.65
+     Location: (6.0, 0.3, -5.0)
+  96. Diameter: 0.65
+     Location: (6.0, 0.6, -5.0)
+  97. Diameter: 0.4
+     Location: (-6.0, 0.6, 5.0)
+  98. Diameter: 0.4
+     Location: (-6.0, 0.0, 5.0)
+  99. Diameter: 0.65
+     Location: (-6.0, 0.3, 5.0)
+  100. Diameter: 0.4
+     Location: (-6.0, 0.0, 5.0)
+  101. Diameter: 0.65
+     Location: (-6.0, 0.3, 5.0)
+  102. Diameter: 0.65
+     Location: (-6.0, 0.6, 5.0)
+  103. Diameter: 0.65
+     Location: (-6.0, 0.6, 5.0)
+  104. Diameter: 0.4
+     Location: (-6.0, 0.6, 5.0)
+  105. Diameter: 0.4
+     Location: (6.0, 0.6, 5.0)
+  106. Diameter: 0.4
+     Location: (6.0, -0.0, 5.0)
+  107. Diameter: 0.65
+     Location: (6.0, 0.3, 5.0)
+  108. Diameter: 0.4
+     Location: (6.0, -0.0, 5.0)
+  109. Diameter: 0.65
+     Location: (6.0, 0.3, 5.0)
+  110. Diameter: 0.65
+     Location: (6.0, 0.6, 5.0)
+  111. Diameter: 0.4
+     Location: (6.0, 0.6, 5.0)
+  112. Diameter: 0.65
+     Location: (6.0, 0.6, 5.0)
+  113. Diameter: 0.4
+     Location: (-6.0, 0.6, 4.0)
+  114. Diameter: 0.4
+     Location: (-6.0, 0.0, 4.0)
+  115. Diameter: 0.65
+     Location: (-6.0, 0.3, 4.0)
+  116. Diameter: 0.4
+     Location: (-6.0, 0.0, 4.0)
+  117. Diameter: 0.65
+     Location: (-6.0, 0.3, 4.0)
+  118. Diameter: 0.65
+     Location: (-6.0, 0.6, 4.0)
+  119. Diameter: 0.65
+     Location: (-6.0, 0.6, 4.0)
+  120. Diameter: 0.4
+     Location: (-6.0, 0.6, 4.0)
+  121. Diameter: 0.4
+     Location: (-6.0, 0.6, 3.0)
+  122. Diameter: 0.4
+     Location: (-6.0, 0.0, 3.0)
+  123. Diameter: 0.65
+     Location: (-6.0, 0.3, 3.0)
+  124. Diameter: 0.4
+     Location: (-6.0, 0.0, 3.0)
+  125. Diameter: 0.65
+     Location: (-6.0, 0.3, 3.0)
+  126. Diameter: 0.65
+     Location: (-6.0, 0.6, 3.0)
+  127. Diameter: 0.65
+     Location: (-6.0, 0.6, 3.0)
+  128. Diameter: 0.4
+     Location: (-6.0, 0.6, 3.0)
+  129. Diameter: 0.4
+     Location: (-6.0, 0.6, 2.0)
+  130. Diameter: 0.4
+     Location: (-6.0, 0.0, 2.0)
+  131. Diameter: 0.65
+     Location: (-6.0, 0.3, 2.0)
+  132. Diameter: 0.4
+     Location: (-6.0, 0.0, 2.0)
+  133. Diameter: 0.65
+     Location: (-6.0, 0.3, 2.0)
+  134. Diameter: 0.65
+     Location: (-6.0, 0.6, 2.0)
+  135. Diameter: 0.65
+     Location: (-6.0, 0.6, 2.0)
+  136. Diameter: 0.4
+     Location: (-6.0, 0.6, 2.0)
+  137. Diameter: 0.4
+     Location: (-6.0, 0.6, 1.0)
+  138. Diameter: 0.4
+     Location: (-6.0, 0.0, 1.0)
+  139. Diameter: 0.65
+     Location: (-6.0, 0.3, 1.0)
+  140. Diameter: 0.4
+     Location: (-6.0, 0.0, 1.0)
+  141. Diameter: 0.65
+     Location: (-6.0, 0.3, 1.0)
+  142. Diameter: 0.65
+     Location: (-6.0, 0.6, 1.0)
+  143. Diameter: 0.65
+     Location: (-6.0, 0.6, 1.0)
+  144. Diameter: 0.4
+     Location: (-6.0, 0.6, 1.0)
+  145. Diameter: 0.4
+     Location: (-6.0, 0.6, 0.0)
+  146. Diameter: 0.4
+     Location: (-6.0, 0.0, 0.0)
+  147. Diameter: 0.65
+     Location: (-6.0, 0.3, 0.0)
+  148. Diameter: 0.4
+     Location: (-6.0, 0.0, 0.0)
+  149. Diameter: 0.65
+     Location: (-6.0, 0.3, 0.0)
+  150. Diameter: 0.65
+     Location: (-6.0, 0.6, 0.0)
+  151. Diameter: 0.65
+     Location: (-6.0, 0.6, 0.0)
+  152. Diameter: 0.4
+     Location: (-6.0, 0.6, 0.0)
+  153. Diameter: 0.4
+     Location: (-6.0, 0.6, -1.0)
+  154. Diameter: 0.4
+     Location: (-6.0, 0.0, -1.0)
+  155. Diameter: 0.65
+     Location: (-6.0, 0.3, -1.0)
+  156. Diameter: 0.4
+     Location: (-6.0, 0.0, -1.0)
+  157. Diameter: 0.65
+     Location: (-6.0, 0.3, -1.0)
+  158. Diameter: 0.65
+     Location: (-6.0, 0.6, -1.0)
+  159. Diameter: 0.65
+     Location: (-6.0, 0.6, -1.0)
+  160. Diameter: 0.4
+     Location: (-6.0, 0.6, -1.0)
+  161. Diameter: 0.4
+     Location: (-6.0, 0.6, -2.0)
+  162. Diameter: 0.4
+     Location: (-6.0, 0.0, -2.0)
+  163. Diameter: 0.65
+     Location: (-6.0, 0.3, -2.0)
+  164. Diameter: 0.4
+     Location: (-6.0, 0.0, -2.0)
+  165. Diameter: 0.65
+     Location: (-6.0, 0.3, -2.0)
+  166. Diameter: 0.65
+     Location: (-6.0, 0.6, -2.0)
+  167. Diameter: 0.65
+     Location: (-6.0, 0.6, -2.0)
+  168. Diameter: 0.4
+     Location: (-6.0, 0.6, -2.0)
+  169. Diameter: 0.4
+     Location: (-6.0, 0.6, -3.0)
+  170. Diameter: 0.4
+     Location: (-6.0, 0.0, -3.0)
+  171. Diameter: 0.65
+     Location: (-6.0, 0.3, -3.0)
+  172. Diameter: 0.4
+     Location: (-6.0, 0.0, -3.0)
+  173. Diameter: 0.65
+     Location: (-6.0, 0.3, -3.0)
+  174. Diameter: 0.65
+     Location: (-6.0, 0.6, -3.0)
+  175. Diameter: 0.65
+     Location: (-6.0, 0.6, -3.0)
+  176. Diameter: 0.4
+     Location: (-6.0, 0.6, -3.0)
+  177. Diameter: 0.4
+     Location: (-6.0, 0.6, -4.0)
+  178. Diameter: 0.4
+     Location: (-6.0, 0.0, -4.0)
+  179. Diameter: 0.65
+     Location: (-6.0, 0.3, -4.0)
+  180. Diameter: 0.4
+     Location: (-6.0, 0.0, -4.0)
+  181. Diameter: 0.65
+     Location: (-6.0, 0.3, -4.0)
+  182. Diameter: 0.65
+     Location: (-6.0, 0.6, -4.0)
+  183. Diameter: 0.65
+     Location: (-6.0, 0.6, -4.0)
+  184. Diameter: 0.4
+     Location: (-6.0, 0.6, -4.0)
+  185. Diameter: 0.4
+     Location: (-6.0, 0.6, -5.0)
+  186. Diameter: 0.4
+     Location: (-6.0, 0.0, -5.0)
+  187. Diameter: 0.65
+     Location: (-6.0, 0.3, -5.0)
+  188. Diameter: 0.4
+     Location: (-6.0, 0.0, -5.0)
+  189. Diameter: 0.65
+     Location: (-6.0, 0.3, -5.0)
+  190. Diameter: 0.65
+     Location: (-6.0, 0.6, -5.0)
+  191. Diameter: 0.65
+     Location: (-6.0, 0.6, -5.0)
+  192. Diameter: 0.4
+     Location: (-6.0, 0.6, -5.0)
+  193. Diameter: 0.4
+     Location: (6.0, 0.6, 4.0)
+  194. Diameter: 0.4
+     Location: (6.0, 0.0, 4.0)
+  195. Diameter: 0.65
+     Location: (6.0, 0.3, 4.0)
+  196. Diameter: 0.4
+     Location: (6.0, 0.0, 4.0)
+  197. Diameter: 0.65
+     Location: (6.0, 0.3, 4.0)
+  198. Diameter: 0.65
+     Location: (6.0, 0.6, 4.0)
+  199. Diameter: 0.4
+     Location: (6.0, 0.6, 4.0)
+  200. Diameter: 0.65
+     Location: (6.0, 0.6, 4.0)
+  201. Diameter: 0.4
+     Location: (6.0, 0.6, 3.0)
+  202. Diameter: 0.4
+     Location: (6.0, 0.0, 3.0)
+  203. Diameter: 0.65
+     Location: (6.0, 0.3, 3.0)
+  204. Diameter: 0.4
+     Location: (6.0, 0.0, 3.0)
+  205. Diameter: 0.65
+     Location: (6.0, 0.3, 3.0)
+  206. Diameter: 0.65
+     Location: (6.0, 0.6, 3.0)
+  207. Diameter: 0.4
+     Location: (6.0, 0.6, 3.0)
+  208. Diameter: 0.65
+     Location: (6.0, 0.6, 3.0)
+  209. Diameter: 0.4
+     Location: (6.0, 0.6, 2.0)
+  210. Diameter: 0.4
+     Location: (6.0, 0.0, 2.0)
+  211. Diameter: 0.65
+     Location: (6.0, 0.3, 2.0)
+  212. Diameter: 0.4
+     Location: (6.0, 0.0, 2.0)
+  213. Diameter: 0.65
+     Location: (6.0, 0.3, 2.0)
+  214. Diameter: 0.65
+     Location: (6.0, 0.6, 2.0)
+  215. Diameter: 0.4
+     Location: (6.0, 0.6, 2.0)
+  216. Diameter: 0.65
+     Location: (6.0, 0.6, 2.0)
+  217. Diameter: 0.4
+     Location: (6.0, 0.6, 1.0)
+  218. Diameter: 0.4
+     Location: (6.0, 0.0, 1.0)
+  219. Diameter: 0.65
+     Location: (6.0, 0.3, 1.0)
+  220. Diameter: 0.4
+     Location: (6.0, 0.0, 1.0)
+  221. Diameter: 0.65
+     Location: (6.0, 0.3, 1.0)
+  222. Diameter: 0.65
+     Location: (6.0, 0.6, 1.0)
+  223. Diameter: 0.4
+     Location: (6.0, 0.6, 1.0)
+  224. Diameter: 0.65
+     Location: (6.0, 0.6, 1.0)
+  225. Diameter: 0.4
+     Location: (6.0, 0.6, 0.0)
+  226. Diameter: 0.4
+     Location: (6.0, 0.0, 0.0)
+  227. Diameter: 0.65
+     Location: (6.0, 0.3, 0.0)
+  228. Diameter: 0.4
+     Location: (6.0, 0.0, 0.0)
+  229. Diameter: 0.65
+     Location: (6.0, 0.3, 0.0)
+  230. Diameter: 0.65
+     Location: (6.0, 0.6, 0.0)
+  231. Diameter: 0.4
+     Location: (6.0, 0.6, 0.0)
+  232. Diameter: 0.65
+     Location: (6.0, 0.6, 0.0)
+  233. Diameter: 0.4
+     Location: (6.0, 0.6, -1.0)
+  234. Diameter: 0.4
+     Location: (6.0, 0.0, -1.0)
+  235. Diameter: 0.65
+     Location: (6.0, 0.3, -1.0)
+  236. Diameter: 0.4
+     Location: (6.0, 0.0, -1.0)
+  237. Diameter: 0.65
+     Location: (6.0, 0.3, -1.0)
+  238. Diameter: 0.65
+     Location: (6.0, 0.6, -1.0)
+  239. Diameter: 0.4
+     Location: (6.0, 0.6, -1.0)
+  240. Diameter: 0.65
+     Location: (6.0, 0.6, -1.0)
+  241. Diameter: 0.4
+     Location: (6.0, 0.6, -2.0)
+  242. Diameter: 0.4
+     Location: (6.0, 0.0, -2.0)
+  243. Diameter: 0.65
+     Location: (6.0, 0.3, -2.0)
+  244. Diameter: 0.4
+     Location: (6.0, 0.0, -2.0)
+  245. Diameter: 0.65
+     Location: (6.0, 0.3, -2.0)
+  246. Diameter: 0.65
+     Location: (6.0, 0.6, -2.0)
+  247. Diameter: 0.4
+     Location: (6.0, 0.6, -2.0)
+  248. Diameter: 0.65
+     Location: (6.0, 0.6, -2.0)
+  249. Diameter: 0.4
+     Location: (6.0, 0.6, -3.0)
+  250. Diameter: 0.4
+     Location: (6.0, 0.0, -3.0)
+  251. Diameter: 0.65
+     Location: (6.0, 0.3, -3.0)
+  252. Diameter: 0.4
+     Location: (6.0, 0.0, -3.0)
+  253. Diameter: 0.65
+     Location: (6.0, 0.3, -3.0)
+  254. Diameter: 0.65
+     Location: (6.0, 0.6, -3.0)
+  255. Diameter: 0.4
+     Location: (6.0, 0.6, -3.0)
+  256. Diameter: 0.65
+     Location: (6.0, 0.6, -3.0)
+  257. Diameter: 0.4
+     Location: (6.0, 0.6, -4.0)
+  258. Diameter: 0.4
+     Location: (6.0, 0.0, -4.0)
+  259. Diameter: 0.65
+     Location: (6.0, 0.3, -4.0)
+  260. Diameter: 0.4
+     Location: (6.0, 0.0, -4.0)
+  261. Diameter: 0.65
+     Location: (6.0, 0.3, -4.0)
+  262. Diameter: 0.65
+     Location: (6.0, 0.6, -4.0)
+  263. Diameter: 0.4
+     Location: (6.0, 0.6, -4.0)
+  264. Diameter: 0.65
+     Location: (6.0, 0.6, -4.0)
+  265. Diameter: 0.4
+     Location: (6.0, 0.6, -5.0)
+  266. Diameter: 0.4
+     Location: (6.0, 0.0, -5.0)
+  267. Diameter: 0.65
+     Location: (6.0, 0.3, -5.0)
+  268. Diameter: 0.4
+     Location: (6.0, 0.0, -5.0)
+  269. Diameter: 0.65
+     Location: (6.0, 0.3, -5.0)
+  270. Diameter: 0.65
+     Location: (6.0, 0.6, -5.0)
+  271. Diameter: 0.4
+     Location: (6.0, 0.6, -5.0)
+  272. Diameter: 0.65
+     Location: (6.0, 0.6, -5.0)
