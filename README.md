@@ -1,68 +1,90 @@
-# CAD File Feature Extractor
+# CAD File Feature Extractor (WIP 🚧)
 
-A Python tool that extracts geometric features and dimensions from CAD files (STEP, IGES, STL) using pythonOCC.
+> ⚠️ **Work in Progress**
+> This tool is under active development. Feature support, output formats, and architecture may evolve.
+
+---
+
+## Overview
+
+**CAD File Feature Extractor** is a Python-based tool that extracts geometric features and dimensional properties from CAD files (STEP, IGES, STL) using `pythonOCC`.
+
+The goal is to provide automated geometric analysis for engineering workflows, manufacturing validation, and downstream computational processing.
+
+---
+
+## Supported File Formats
+
+* STEP (.step, .stp)
+* IGES (.iges, .igs)
+* STL (.stl)
+
+---
 
 ## Installation
 
-1. Create and activate a conda environment:
+### 1. Create and Activate a Conda Environment
 
 ```bash
 conda create -n pyocct python=3.8
 conda activate pyocct
 ```
 
-2. Install pythonOCC-core using conda:
+### 2. Install pythonOCC-core
 
 ```bash
 conda install -c conda-forge pythonocc-core
 ```
 
-## Supported File Formats
-
-- STEP (.step, .stp)
-- IGES (.iges, .igs)
-- STL (.stl)
+---
 
 ## Usage
 
-Run the script with your CAD file:
+Run the extraction script with your CAD file:
 
 ```bash
 python extract.py
 ```
 
-## Features
+---
 
-The tool analyzes CAD files and extracts:
+## Features (Current Scope)
 
-- Basic Dimensions:
+### 📏 Basic Dimensions
 
-  - Length
-  - Breadth
-  - Height
-  - Volume
-  - Surface area
+* Length
+* Breadth
+* Height
+* Volume
+* Surface Area
 
-- Geometric Features:
-  - Cylindrical features (holes, bosses)
-    - Diameter
-    - Location coordinates (x, y, z)
-  - Bounding box dimensions
+### 🔵 Geometric Features
+
+* Cylindrical Features (holes, bosses)
+
+  * Diameter
+  * Location coordinates (x, y, z)
+* Bounding box dimensions
+
+---
 
 ## Output Files
 
-The tool generates two output files:
+The tool generates two output files per processed model:
 
-1. `{filename}_dimensions.json`:
+### 1. `{filename}_dimensions.json`
 
-   - Contains basic dimensional data in JSON format
-   - Includes length, breadth, and height
+* Basic dimensional data
+* Length, breadth, height
+* Structured JSON format for downstream use
 
-2. `{filename}_analysis.txt`:
-   - Detailed analysis report including:
-     - Full dimensional ranges (X, Y, Z)
-     - Volume and surface area
-     - Complete list of cylindrical features with locations
+### 2. `{filename}_analysis.txt`
+
+* Full dimensional ranges (X, Y, Z)
+* Volume and surface area
+* Detailed list of cylindrical features with locations
+
+---
 
 ## Example Output
 
@@ -84,23 +106,44 @@ Cylindrical Features:
    ...
 ```
 
+---
+
 ## Requirements
 
-- Python 3.8+
-- pythonocc-core
-- Standard Python libraries:
-  - json
-  - logging
+* Python 3.8+
+* pythonocc-core
+* Standard Python libraries:
+
+  * json
+  * logging
+
+---
 
 ## Error Handling
 
-The tool includes robust error handling for:
+Includes safeguards for:
 
-- Invalid file formats
-- Missing files
-- Corrupted CAD data
-- Empty or invalid shapes
+* Invalid or unsupported file formats
+* Missing files
+* Corrupted CAD data
+* Empty or invalid geometric shapes
+
+---
+
+## Roadmap (Planned Enhancements)
+
+* [ ] Feature classification beyond cylindrical geometry
+* [ ] Support for additional analytic feature detection (slots, fillets, pockets)
+* [ ] Batch processing support
+* [ ] API layer for integration with larger systems
+* [ ] Performance optimization for large assemblies
+
+---
 
 ## License
 
-[Your License Information]
+[License information to be added]
+
+---
+
+🚀 This project is actively evolving. Contributions and experiment
